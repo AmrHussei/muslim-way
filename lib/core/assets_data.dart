@@ -10,3 +10,7 @@ const azaan = 'assets/azaan.png';
 const eid = 'assets/Eid.png';
 const azkar = 'assets/azkar.png';
 const taspehBg = 'assets/taspehBg.jpg';
+const displayScreenImage = 'assets/displayScreenImage.jpg';
+const circule = 'assets/circule.svg';
+const restart = 'assets/restart.png';
+const totalRestart = 'assets/totalRestart.png';

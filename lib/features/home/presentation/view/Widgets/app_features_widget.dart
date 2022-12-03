@@ -62,7 +62,7 @@ class BuildItem extends StatelessWidget {
       padding: EdgeInsets.only(bottom: 15.w, right: 20.w, top: 5.w, left: 5),
       child: InkWell(
         onTap: () {
-          get_navigation.Get.off(const TaspehAndTakbeerScreen(),
+          get_navigation.Get.to(const TaspehAndTakbeerScreen(),
               transition: get_navigation.Transition.zoom,
               duration: transitionDuration);
         },
