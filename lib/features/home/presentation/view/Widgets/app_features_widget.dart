@@ -7,6 +7,8 @@ import 'package:muslim_way/core/constant.dart';
 import 'package:get/get.dart' as get_navigation;
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view/taspeh_takbeer_screen.dart';
 
+import '../../../../Islamic_events/presentation/view/Islamic_events_screen.dart';
+
 class AppFeatures extends StatelessWidget {
   const AppFeatures({
     Key? key,
@@ -32,12 +34,42 @@ class AppFeatures extends StatelessWidget {
                     crossAxisCount: 2,
                     children: <Widget>[
                       //const List featuresLogo = [books, quranLogo, azaan, taspeh, taspeh, taspeh];
-                      BuildItem(image: books, text: 'كتب الحديث'),
-                      BuildItem(image: quranLogo, text: 'القرأن الكريم'),
-                      BuildItem(image: azaan, text: 'المؤذن'),
-                      BuildItem(image: taspeh, text: 'التسبيح'),
-                      BuildItem(image: eid, text: 'الأعياد الاسلامية'),
-                      BuildItem(image: azkar, text: 'اذكار الصباح و المساء'),
+                      BuildItem(
+                        image: books,
+                        text: 'كتب الحديث',
+                        onTap: (() => null),
+                      ),
+                      BuildItem(
+                        image: quranLogo,
+                        text: 'القرأن الكريم',
+                        onTap: (() => null),
+                      ),
+                      BuildItem(
+                        image: azaan,
+                        text: 'المؤذن',
+                        onTap: (() => null),
+                      ),
+                      BuildItem(
+                        image: taspeh,
+                        text: 'التسبيح',
+                        onTap: (() => get_navigation.Get.to(
+                            const TaspehAndTakbeerScreen(),
+                            transition: get_navigation.Transition.zoom,
+                            duration: transitionDuration)),
+                      ),
+                      BuildItem(
+                        image: eid,
+                        text: 'الأعياد الاسلامية',
+                        onTap: (() => get_navigation.Get.to(
+                            const IslamicEvents(),
+                            transition: get_navigation.Transition.zoom,
+                            duration: transitionDuration)),
+                      ),
+                      BuildItem(
+                        image: azkar,
+                        text: 'اذكار الصباح و المساء',
+                        onTap: (() => null),
+                      ),
                     ],
                   ),
                 ),
@@ -50,22 +82,22 @@ class AppFeatures extends StatelessWidget {
   }
 }
 
-// ignore: must_be_immutable
 class BuildItem extends StatelessWidget {
-  BuildItem({Key? key, required this.image, required this.text})
-      : super(key: key);
-  String image;
-  String text;
+  const BuildItem({
+    Key? key,
+    required this.image,
+    required this.text,
+    required this.onTap,
+  }) : super(key: key);
+  final String image;
+  final String text;
+  final Function() onTap;
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(bottom: 15.w, right: 20.w, top: 5.w, left: 5),
       child: InkWell(
-        onTap: () {
-          get_navigation.Get.to(const TaspehAndTakbeerScreen(),
-              transition: get_navigation.Transition.zoom,
-              duration: transitionDuration);
-        },
+        onTap: onTap,
         child: Container(
           height: 150.h,
           width: 150.h,

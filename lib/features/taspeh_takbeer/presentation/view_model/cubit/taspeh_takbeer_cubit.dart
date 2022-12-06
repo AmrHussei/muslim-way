@@ -1,12 +1,11 @@
 import 'dart:ffi';
 import 'package:get/get.dart' as get_navigation;
-import 'package:get_storage/get_storage.dart';
-
 import 'package:bloc/bloc.dart';
+
 import 'package:meta/meta.dart';
 import 'package:muslim_way/core/constant.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import '../../view/taspeh_screen.dart';
+
+import '../../view/display_screen.dart';
 part 'taspeh_takbeer_state.dart';
 
 class TaspehTakbeerCubit extends Cubit<TaspehTakbeerState> {
@@ -14,20 +13,7 @@ class TaspehTakbeerCubit extends Cubit<TaspehTakbeerState> {
 
   int taspehNum = 0;
   int taspehGroupNum = 0;
- late int totalTaspehNums;
- late int total;
-
-  @override
-  void onChange(Change<TaspehTakbeerState> change) async {
-    // TODO: implement onChange
-
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt('totalTaspehNums', totalTaspehNums + 0);
-    total = prefs.getInt('totalTaspehNums')!;
-
-    super.onChange(change);
-  }
-
+  int totalTaspehNums = 0;
   //
   int takbeerNum = 0;
   int takbeerGroupNum = 0;
@@ -100,7 +86,6 @@ class TaspehTakbeerCubit extends Cubit<TaspehTakbeerState> {
   incrementTotalNum(String incrementID) {
     switch (incrementID) {
       case MyIncrementID.taspeh:
-        totalTaspehNums = total!;
         totalTaspehNums++;
         emit(Taspeh());
         break;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/taspeh_screen.dart';
+import 'package:muslim_way/features/taspeh_takbeer/presentation/view/display_screen.dart';
 
 import '../../../../../../core/constant.dart';
 

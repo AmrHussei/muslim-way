@@ -12,10 +12,10 @@ class MyColors {
   static const mainNum = Color(0xff107283);
   static const displayButton = Color(0xff56CCD3);
   static const displayButtontext = Color(0xff3B9294);
-
+  static const tableRowColor = Color(0xffECECEC);
 }
 
-class MyIncrementID{
+class MyIncrementID {
   static const taspeh = 'taspeh';
   static const estkhfar = 'estkhfar';
   static const takbeer = 'takbeer';

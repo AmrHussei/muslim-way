@@ -14,3 +14,4 @@ const displayScreenImage = 'assets/displayScreenImage.jpg';
 const circule = 'assets/circule.svg';
 const restart = 'assets/restart.png';
 const totalRestart = 'assets/totalRestart.png';
+const islamicevents = 'assets/Islamicevents.jpg';

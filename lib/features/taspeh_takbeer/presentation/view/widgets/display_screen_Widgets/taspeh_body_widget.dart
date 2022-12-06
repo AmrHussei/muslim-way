@@ -3,9 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_screen_Widgets/button_to_increment_taspeh.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_screen_Widgets/total_taspeh_num.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_screen_Widgets/total_taspeh_restart.dart';
+import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/display_screen_Widgets/button_to_increment_taspeh.dart';
+
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
 
 import '../../../../../../core/constant.dart';
@@ -37,17 +36,18 @@ class DisplayBodyWidget extends StatelessWidget {
             height: 43.h,
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              TotalNum(totalText: totalText),
-              SizedBox(
-                width: 13.w,
-              ),
-              TotalRestart(incrementID: incrementID),
-              SizedBox(
-                width: 13.w,
-              ),
-              const GroupNums()
+            children: const [
+              //   TotalNum(totalText: totalText),
+              //  SizedBox(
+              //    width: 13.w,
+              //     ),
+              //  TotalRestart(incrementID: incrementID),
+              //       SizedBox(
+              //       width: 13.w,
+              //    ),
+              GroupNums()
             ],
           ),
           SizedBox(
@@ -187,8 +187,6 @@ class RestartTheMainNum extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (() {
-       
-        //TODO get ther fun dynamic
         BlocProvider.of<TaspehTakbeerCubit>(context)
             .restartMainNum(incrementID);
       }),

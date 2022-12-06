@@ -4,8 +4,9 @@ import 'package:get/get.dart';
 
 class ButtonToBack extends StatelessWidget {
   const ButtonToBack({
-    Key? key,
+    Key? key, required this.color,
   }) : super(key: key);
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class ButtonToBack extends StatelessWidget {
           icon: Icon(
             Icons.arrow_forward,
             size: 26.sp,
-            color: Colors.white,
+            color: color,
           )),
     );
   }

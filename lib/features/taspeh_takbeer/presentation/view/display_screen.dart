@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/back_button.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/screen_name.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_screen_Widgets/taspeh_body_widget.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_takbeer_widgets/tespeh_background.dart';
+import 'package:muslim_way/core/back_button.dart';
+import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/display_screen_Widgets/taspeh_body_widget.dart';
+import 'package:muslim_way/core/screen_name.dart';
+import 'package:muslim_way/core/screens_background.dart';
 import '../../../../core/assets_data.dart';
 
 class DisplayScreen extends StatelessWidget {
@@ -20,11 +20,11 @@ class DisplayScreen extends StatelessWidget {
       child: Scaffold(
         body: Stack(
           children: [
-            TespehBackground(
+            ScreensBackground(
               image: displayScreenImage,
             ),
-             ScreenName(text: appBarText),
-            const ButtonToBack(),
+             ScreenName(text: appBarText,color: Colors.white),
+            const ButtonToBack(color: Colors.white),
             DisplayBodyWidget(centerText: centerText, totalText: totalText,incrementID: incrementID),
           ],
         ),

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../core/assets_data.dart';
+
 
 // ignore: must_be_immutable
-class TespehBackground extends StatelessWidget {
-  TespehBackground({Key? key, required this.image}) : super(key: key);
+class ScreensBackground extends StatelessWidget {
+  ScreensBackground({Key? key, required this.image}) : super(key: key);
 
   String image;
 

@@ -35,7 +35,7 @@ class TotalNum extends StatelessWidget {
             builder: ((context, state) {
               if (state is Taspeh) {
                 return Text(
-                  '${BlocProvider.of<TaspehTakbeerCubit>(context).total}',
+                  '${BlocProvider.of<TaspehTakbeerCubit>(context).totalTaspehNums}',
                   style: GoogleFonts.elMessiri(
                     color: MyColors.nums,
                     fontSize: 24.sp,
