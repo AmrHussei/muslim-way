@@ -15,3 +15,5 @@ const circule = 'assets/circule.svg';
 const restart = 'assets/restart.png';
 const totalRestart = 'assets/totalRestart.png';
 const islamicevents = 'assets/Islamicevents.jpg';
+const prayers = 'assets/prayersBG.jpg';
+const refresh = 'assets/refresh.svg';

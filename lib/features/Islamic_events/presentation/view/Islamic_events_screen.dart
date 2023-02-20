@@ -6,7 +6,7 @@ import 'package:muslim_way/core/assets_data.dart';
 import 'package:muslim_way/core/constant.dart';
 
 import 'package:muslim_way/core/screens_background.dart';
-import 'package:muslim_way/features/Islamic_events/presentation/view/widgets/app_bar_widget.dart';
+import 'package:muslim_way/core/app_bar_widget.dart';
 
 class IslamicEvents extends StatelessWidget {
   const IslamicEvents({super.key});
@@ -24,7 +24,8 @@ class IslamicEvents extends StatelessWidget {
               SizedBox(
                 height: 30.h,
               ),
-              const AppBarWidget(),
+              const AppBarWidget(
+                  text: 'الأعياد الاسلامية', color: MyColors.names),
               SizedBox(
                 height: 75.h,
               ),

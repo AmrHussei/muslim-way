@@ -8,7 +8,6 @@ import 'Widgets/app_name_widget.dart';
 import 'Widgets/background.dart';
 import 'Widgets/center_aya_box.dart';
 import 'Widgets/quran_image_widget.dart';
-import 'Widgets/settings_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -19,13 +18,26 @@ class HomeScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.grey,
         body: Stack(
-          children: const [
+          children: [
             Background(),
-            AppNameWidget(),
-            SettingsWidget(),
-            CenterAyaBox(),
+            Padding(
+              padding: EdgeInsets.only(
+                  top: 20.h, left: 15.h, right: 15.h, bottom: 15.h),
+              child: Column(
+                children: [
+                  AppNameWidget(),
+                  SizedBox(
+                    height: 75.h,
+                  ),
+                  CenterAyaBox(),
+                  SizedBox(
+                    height: 25.h,
+                  ),
+                  AppFeatures(),
+                ],
+              ),
+            ),
             QuranImageWidget(),
-            AppFeatures(),
           ],
         ),
       ),

@@ -10,47 +10,43 @@ class CenterAyaBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      top: 153.h,
-      right: 16.5.w,
-      child: Container(
-        width: 327.w,
-        height: 257.h,
-        decoration: BoxDecoration(
-          gradient: const LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              MyColors.gradient1,
-              MyColors.gradient2,
-            ],
+    return Container(
+      width: 327.w,
+      height: 245.h,
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            MyColors.gradient1,
+            MyColors.gradient2,
+          ],
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey,
+            blurRadius: 15.sp,
+            spreadRadius: 0,
+            offset: const Offset(0, 15), // Shadow position
           ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.grey,
-              blurRadius: 15.sp,
-              spreadRadius: 0,
-              offset: const Offset(0, 15), // Shadow position
-            ),
-          ],
-          borderRadius: BorderRadius.circular(20.sp),
-        ),
-        child: Column(
-          children: [
-            SizedBox(
-              height: 26.h,
-            ),
-            const BasmalaWidget(),
-            SizedBox(
-              height: 17.h,
-            ),
-            const AyahWidget(),
-            SizedBox(
-              height: 12.h,
-            ),
-            const DataOfAyah()
-          ],
-        ),
+        ],
+        borderRadius: BorderRadius.circular(20.sp),
+      ),
+      child: Column(
+        children: [
+          SizedBox(
+            height: 26.h,
+          ),
+          const BasmalaWidget(),
+          SizedBox(
+            height: 17.h,
+          ),
+          const AyahWidget(),
+          SizedBox(
+            height: 12.h,
+          ),
+          const DataOfAyah()
+        ],
       ),
     );
   }

@@ -3,12 +3,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../../../../core/constant.dart';
+import 'constant.dart';
 
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({
-    Key? key,
+    Key? key, required this.text, required this.color,
   }) : super(key: key);
+  final String text;
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +18,9 @@ class AppBarWidget extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Text(
-          'الأعياد الاسلامية',
+          text,
           style: GoogleFonts.elMessiri(
-            color: MyColors.names,
+            color: color,
             fontSize: 17.sp,
             fontWeight: FontWeight.w500,
           ),
@@ -33,7 +35,7 @@ class AppBarWidget extends StatelessWidget {
           icon: Icon(
             Icons.arrow_forward,
             size: 26.sp,
-            color: MyColors.names,
+            color: color,
           ),
         ),
         SizedBox(

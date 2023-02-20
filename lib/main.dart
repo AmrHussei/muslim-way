@@ -8,6 +8,8 @@ import 'package:muslim_way/features/auth/presentation/view/splash_screen.dart';
 import 'package:muslim_way/features/auth/presentation/view_model/cubit/auth_cubit.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
 
+import 'features/morning_and_evening-prayers/presentation/view_model/cubit/paryers_cubit.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -15,6 +17,7 @@ void main() async {
   runApp(MultiBlocProvider(providers: [
     BlocProvider(create: (context) => AuthCubit()),
     BlocProvider(create: (context) => TaspehTakbeerCubit()),
+    BlocProvider(create: (context) => ParyersCubit()),
   ], child: const MuslimWay()));
 }
 
