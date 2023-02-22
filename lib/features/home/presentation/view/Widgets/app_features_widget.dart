@@ -3,12 +3,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/core/constant.dart';
+import 'package:muslim_way/core/utils/constant.dart';
 import 'package:get/get.dart' as get_navigation;
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view/prayers_screen.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view/taspeh_takbeer_screen.dart';
 
 import '../../../../Islamic_events/presentation/view/Islamic_events_screen.dart';
+import '../../../../quran/presentation/view/index_sura_of_quran_screen.dart';
 
 class AppFeatures extends StatelessWidget {
   const AppFeatures({
@@ -37,7 +38,9 @@ class AppFeatures extends StatelessWidget {
                 BuildItem(
                   image: quranLogo,
                   text: 'القرأن الكريم',
-                  onTap: (() => null),
+                  onTap: (() => get_navigation.Get.to(const IndexSurahOfQuran(),
+                      transition: get_navigation.Transition.zoom,
+                      duration: transitionDuration)),
                 ),
                 BuildItem(
                   image: azaan,

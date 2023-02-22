@@ -9,7 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view_model/cubit/paryers_cubit.dart';
 
 import '../../../../../core/assets_data.dart';
-import '../../../../../core/constant.dart';
+import '../../../../../core/utils/constant.dart';
 
 class MorningPrayers extends StatelessWidget {
   const MorningPrayers({super.key});

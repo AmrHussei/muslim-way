@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../../../../../core/constant.dart';
+import '../../../../../../core/utils/constant.dart';
 
 class NameOfScreen extends StatelessWidget {
   const NameOfScreen({
@@ -14,7 +14,6 @@ class NameOfScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-     
       child: Text(
         centerText,
         style: GoogleFonts.elMessiri(

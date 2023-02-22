@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/app_bar_widget.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/core/constant.dart';
+import 'package:muslim_way/core/utils/constant.dart';
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view/widgets/evening_prayers.dart';
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view/widgets/morning_prayers.dart';
 

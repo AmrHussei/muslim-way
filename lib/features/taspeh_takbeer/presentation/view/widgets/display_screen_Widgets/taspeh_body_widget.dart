@@ -7,7 +7,7 @@ import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/dis
 
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
 
-import '../../../../../../core/constant.dart';
+import '../../../../../../core/utils/constant.dart';
 import 'name_of_taspeh_screen.dart';
 
 class DisplayBodyWidget extends StatelessWidget {

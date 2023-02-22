@@ -3,7 +3,7 @@ import 'package:get/get.dart' as get_navigation;
 import 'package:bloc/bloc.dart';
 
 import 'package:meta/meta.dart';
-import 'package:muslim_way/core/constant.dart';
+import 'package:muslim_way/core/utils/constant.dart';
 
 import '../../view/display_screen.dart';
 part 'taspeh_takbeer_state.dart';

@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view/widgets/taspeh_takbeer_widgets/build_item.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
-import '../../../../../../core/constant.dart';
-
+import '../../../../../../core/utils/constant.dart';
 
 class Items extends StatelessWidget {
   const Items({

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/core/constant.dart';
+import 'package:muslim_way/core/utils/constant.dart';
 import 'package:muslim_way/features/home/presentation/view/home_screen.dart';
 import 'package:muslim_way/features/auth/presentation/view/get_start_screen.dart';
 

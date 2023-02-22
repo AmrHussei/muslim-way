@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/core/constant.dart';
+import 'package:muslim_way/core/utils/constant.dart';
 import 'package:muslim_way/features/auth/presentation/view_model/cubit/auth_cubit.dart';
 
 class StartScreen extends StatelessWidget {

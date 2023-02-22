@@ -3,11 +3,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'constant.dart';
+import 'utils/constant.dart';
 
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({
-    Key? key, required this.text, required this.color,
+    Key? key,
+    required this.text,
+    required this.color,
   }) : super(key: key);
   final String text;
   final Color color;

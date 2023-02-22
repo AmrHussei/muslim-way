@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' as get_navigation;
 
-import '../../../../../core/constant.dart';
+import '../../../../../core/utils/constant.dart';
 import '../../../../home/presentation/view/home_screen.dart';
 part 'auth_state.dart';
 

@@ -19,25 +19,25 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.grey,
         body: Stack(
           children: [
-            Background(),
+            const Background(),
             Padding(
               padding: EdgeInsets.only(
                   top: 20.h, left: 15.h, right: 15.h, bottom: 15.h),
               child: Column(
                 children: [
-                  AppNameWidget(),
+                  const AppNameWidget(),
                   SizedBox(
                     height: 75.h,
                   ),
-                  CenterAyaBox(),
+                  const CenterAyaBox(),
                   SizedBox(
                     height: 25.h,
                   ),
-                  AppFeatures(),
+                  const AppFeatures(),
                 ],
               ),
             ),
-            QuranImageWidget(),
+            const QuranImageWidget(),
           ],
         ),
       ),

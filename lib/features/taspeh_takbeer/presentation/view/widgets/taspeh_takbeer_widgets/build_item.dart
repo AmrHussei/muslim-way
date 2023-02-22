@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view/display_screen.dart';
 
-import '../../../../../../core/constant.dart';
+import '../../../../../../core/utils/constant.dart';
 
 class BuildTaspehItem extends StatelessWidget {
   const BuildTaspehItem({Key? key, required this.text, required this.onTap})

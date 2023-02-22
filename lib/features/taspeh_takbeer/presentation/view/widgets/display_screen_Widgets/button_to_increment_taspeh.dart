@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../../../../../core/constant.dart';
+import '../../../../../../core/utils/constant.dart';
 import '../../../view_model/cubit/taspeh_takbeer_cubit.dart';
 
 class ButtonToIncrement extends StatelessWidget {

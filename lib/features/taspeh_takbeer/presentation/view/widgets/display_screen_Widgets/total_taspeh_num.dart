@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
 
-import '../../../../../../core/constant.dart';
+import '../../../../../../core/utils/constant.dart';
 
 class TotalNum extends StatelessWidget {
   const TotalNum({

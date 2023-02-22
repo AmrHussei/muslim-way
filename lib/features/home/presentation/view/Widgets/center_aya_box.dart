@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../../../../../core/constant.dart';
+import '../../../../../core/utils/constant.dart';
 
 class CenterAyaBox extends StatelessWidget {
   const CenterAyaBox({
@@ -63,6 +63,7 @@ class DataOfAyah extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 42.w),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
         //TODO: اسم السوره ورقم الايه /////////////////////////////////
         children: [
           Text(
