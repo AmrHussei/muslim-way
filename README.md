@@ -1,5 +1,5 @@
 # Google Maps
-## this project still under development
+### this project still under development (prayer time api )
 
 A religious application that contains many features such as the modern Holy
 Qur’an, prayer times according to the location, morning and evening
