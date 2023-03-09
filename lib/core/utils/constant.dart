@@ -14,6 +14,7 @@ class MyColors {
   static const displayButtontext = Color(0xff3B9294);
   static const tableRowColor = Color(0xffECECEC);
   static const prayers = Color(0xffA88947);
+  static const selecteddate = Color(0xffE3EDF7);
 }
 
 class MyIncrementID {
@@ -155,4 +156,8 @@ class EveningPrayersText {
       '''((اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نَافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً)) (إذا أصبحَ).''';
   static const String text20 =
       '''((أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ)) (مِائَةَ مَرَّةٍ فِي الْيَوْمِ).''';
+}
+
+class ApiConstant {
+  static const String prayerTimeBaseURL = 'http://api.aladhan.com/v1/calendar';
 }

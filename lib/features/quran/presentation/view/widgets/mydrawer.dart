@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
 import 'package:muslim_way/core/utils/constant.dart';
 import 'package:muslim_way/features/quran/presentation/view/settings_screen.dart';
@@ -50,7 +51,7 @@ class _MyDrawerState extends State<MyDrawer> {
             ),
             title: Text(
               'حجم الخط',
-              style: TextStyle(fontSize: 20.sp),
+              style: GoogleFonts.elMessiri(fontSize: 20.sp),
             ),
             onTap: () {
               Navigator.pop(context);
@@ -69,11 +70,10 @@ class _MyDrawerState extends State<MyDrawer> {
             ),
             title: Text(
               'مشاركة',
-              style: TextStyle(fontSize: 20.sp),
+              style: GoogleFonts.elMessiri(fontSize: 20.sp),
             ),
             onTap: () {
-              Share.share(
-                  '''*Quran app*\n
+              Share.share('''*Quran app*\n
 u can develop it from my LinkedIn https://www.linkedin.com/in/amr-hussein-51a141220/ ''');
               Navigator.pop(context);
             },
@@ -86,7 +86,7 @@ u can develop it from my LinkedIn https://www.linkedin.com/in/amr-hussein-51a141
             ),
             title: Text(
               'تقيم',
-              style: TextStyle(fontSize: 20.sp),
+              style: GoogleFonts.elMessiri(fontSize: 20.sp),
             ),
             onTap: () async {
               if (!await launchUrl(quranAppurl,

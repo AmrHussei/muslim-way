@@ -17,7 +17,7 @@ class IslamicEvents extends StatelessWidget {
       child: Scaffold(
         body: Stack(children: [
           ScreensBackground(
-            image: islamicevents,
+            image: prayerBg,
           ),
           Column(
             children: [
@@ -29,88 +29,92 @@ class IslamicEvents extends StatelessWidget {
               SizedBox(
                 height: 75.h,
               ),
-              DataTable(columns: const <DataColumn>[
-                DataColumn(
-                  numeric: true,
-                  label: Expanded(
-                    child: Center(
-                      child: HeaderText(
-                        text: 'التاريخ الميلادي',
+              DataTable(
+                  dataRowHeight: 50.h,
+                  columnSpacing: 20,
+                  columns: const <DataColumn>[
+                    DataColumn(
+                      numeric: true,
+                      label: Expanded(
+                        child: Center(
+                          child: HeaderText(
+                            text: 'التاريخ الميلادي',
+                          ),
+                        ),
                       ),
                     ),
-                  ),
-                ),
-                DataColumn(
-                  numeric: true,
-                  label: Expanded(
-                    child: HeaderText(
-                      text: 'التاريخ الهجري',
-                    ),
-                  ),
-                ),
-                DataColumn(
-                  numeric: true,
-                  label: Expanded(
-                    child: HeaderText(
-                      text: 'اليوم',
-                    ),
-                  ),
-                ),
-                DataColumn(
-                  numeric: true,
-                  label: Expanded(
-                    child: Center(
-                      child: HeaderText(
-                        text: 'الاعياد الاسلاميه',
+                    DataColumn(
+                      numeric: true,
+                      label: Expanded(
+                        child: HeaderText(
+                          text: 'التاريخ الهجري',
+                        ),
                       ),
                     ),
-                  ),
-                ),
-              ], rows: <DataRow>[
-                DataRow(
-                  color: MaterialStateProperty.all(MyColors.tableRowColor),
-                  cells: const <DataCell>[
-                    DataCell(CellsText(text: '18/2/2023')),
-                    DataCell(CellsText(text: '27/7/1444')),
-                    DataCell(CellsText(text: 'السبت')),
-                    DataCell(CellsText(text: 'الاسراء و المعراج')),
+                    DataColumn(
+                      numeric: true,
+                      label: Expanded(
+                        child: HeaderText(
+                          text: 'اليوم',
+                        ),
+                      ),
+                    ),
+                    DataColumn(
+                      numeric: true,
+                      label: Expanded(
+                        child: Center(
+                          child: HeaderText(
+                            text: 'الاعياد الاسلاميه',
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
-                ),
-                const DataRow(
-                  cells: <DataCell>[
-                    DataCell(CellsText(text: '7/3/2023')),
-                    DataCell(CellsText(text: '15/8/1444')),
-                    DataCell(CellsText(text: 'الثلاثاء')),
-                    DataCell(CellsText(text: 'النصف من شعبان')),
-                  ],
-                ),
-                DataRow(
-                  color: MaterialStateProperty.all(MyColors.tableRowColor),
-                  cells: const <DataCell>[
-                    DataCell(CellsText(text: '21/3/2023')),
-                    DataCell(CellsText(text: '15/8/1444')),
-                    DataCell(CellsText(text: 'الثلاثاء')),
-                    DataCell(CellsText(text: 'هلال رمضان')),
-                  ],
-                ),
-                const DataRow(
-                  cells: <DataCell>[
-                    DataCell(CellsText(text: '27/6/2023')),
-                    DataCell(CellsText(text: '9/12/1444')),
-                    DataCell(CellsText(text: 'الثلاثاء')),
-                    DataCell(CellsText(text: 'يوم عرفه')),
-                  ],
-                ),
-                DataRow(
-                  color: MaterialStateProperty.all(MyColors.tableRowColor),
-                  cells: const <DataCell>[
-                    DataCell(CellsText(text: '28/6/2023')),
-                    DataCell(CellsText(text: '10/12/1444')),
-                    DataCell(CellsText(text: 'الأربعاء')),
-                    DataCell(CellsText(text: 'عيد الأضحى')),
-                  ],
-                ),
-              ]),
+                  rows: <DataRow>[
+                    DataRow(
+                      color: MaterialStateProperty.all(MyColors.tableRowColor),
+                      cells: const <DataCell>[
+                        DataCell(CellsText(text: '18/2/2023')),
+                        DataCell(CellsText(text: '27/7/1444')),
+                        DataCell(CellsText(text: 'السبت')),
+                        DataCell(CellsText(text: 'الاسراء و المعراج')),
+                      ],
+                    ),
+                    const DataRow(
+                      cells: <DataCell>[
+                        DataCell(CellsText(text: '7/3/2023')),
+                        DataCell(CellsText(text: '15/8/1444')),
+                        DataCell(CellsText(text: 'الثلاثاء')),
+                        DataCell(CellsText(text: 'النصف من شعبان')),
+                      ],
+                    ),
+                    DataRow(
+                      color: MaterialStateProperty.all(MyColors.tableRowColor),
+                      cells: const <DataCell>[
+                        DataCell(CellsText(text: '21/3/2023')),
+                        DataCell(CellsText(text: '15/8/1444')),
+                        DataCell(CellsText(text: 'الثلاثاء')),
+                        DataCell(CellsText(text: 'هلال رمضان')),
+                      ],
+                    ),
+                    const DataRow(
+                      cells: <DataCell>[
+                        DataCell(CellsText(text: '27/6/2023')),
+                        DataCell(CellsText(text: '9/12/1444')),
+                        DataCell(CellsText(text: 'الثلاثاء')),
+                        DataCell(CellsText(text: 'يوم عرفه')),
+                      ],
+                    ),
+                    DataRow(
+                      color: MaterialStateProperty.all(MyColors.tableRowColor),
+                      cells: const <DataCell>[
+                        DataCell(CellsText(text: '28/6/2023')),
+                        DataCell(CellsText(text: '10/12/1444')),
+                        DataCell(CellsText(text: 'الأربعاء')),
+                        DataCell(CellsText(text: 'عيد الأضحى')),
+                      ],
+                    ),
+                  ]),
             ],
           )
         ]),

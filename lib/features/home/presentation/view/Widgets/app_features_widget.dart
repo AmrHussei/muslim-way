@@ -6,6 +6,7 @@ import 'package:muslim_way/core/assets_data.dart';
 import 'package:muslim_way/core/utils/constant.dart';
 import 'package:get/get.dart' as get_navigation;
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view/prayers_screen.dart';
+import 'package:muslim_way/features/prayer_time/presentation/view/screens/prayer_time_screen.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view/taspeh_takbeer_screen.dart';
 
 import '../../../../Islamic_events/presentation/view/Islamic_events_screen.dart';
@@ -31,9 +32,11 @@ class AppFeatures extends StatelessWidget {
               children: <Widget>[
                 //const List featuresLogo = [books, quranLogo, azaan, taspeh, taspeh, taspeh];
                 BuildItem(
-                  image: books,
-                  text: 'كتب الحديث',
-                  onTap: (() => null),
+                  image: azkar,
+                  text: 'اذكار الصباح و المساء',
+                  onTap: (() => get_navigation.Get.to(const PrayersScreen(),
+                      transition: get_navigation.Transition.zoom,
+                      duration: transitionDuration)),
                 ),
                 BuildItem(
                   image: quranLogo,
@@ -44,8 +47,10 @@ class AppFeatures extends StatelessWidget {
                 ),
                 BuildItem(
                   image: azaan,
-                  text: 'المؤذن',
-                  onTap: (() => null),
+                  text: 'مواقيت الصلاة',
+                  onTap: (() => get_navigation.Get.to(const PrayerTimeScreen(),
+                      transition: get_navigation.Transition.zoom,
+                      duration: transitionDuration)),
                 ),
                 BuildItem(
                   image: taspeh,
@@ -62,13 +67,12 @@ class AppFeatures extends StatelessWidget {
                       transition: get_navigation.Transition.zoom,
                       duration: transitionDuration)),
                 ),
-                BuildItem(
-                  image: azkar,
-                  text: 'اذكار الصباح و المساء',
-                  onTap: (() => get_navigation.Get.to(const PrayersScreen(),
-                      transition: get_navigation.Transition.zoom,
-                      duration: transitionDuration)),
-                ),
+                /*  BuildItem(
+                  image: books,
+                  text: 'كتب الحديث',
+                  onTap: (() => null),
+                ), 
+                */
               ],
             ),
           ),

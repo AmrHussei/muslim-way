@@ -3,8 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'utils/constant.dart';
-
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({
     Key? key,
@@ -17,8 +15,9 @@ class AppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.end,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
+        Container(),
         Text(
           text,
           style: GoogleFonts.elMessiri(
@@ -26,9 +25,6 @@ class AppBarWidget extends StatelessWidget {
             fontSize: 17.sp,
             fontWeight: FontWeight.w500,
           ),
-        ),
-        SizedBox(
-          width: 95.w,
         ),
         IconButton(
           onPressed: (() {
@@ -40,9 +36,6 @@ class AppBarWidget extends StatelessWidget {
             color: color,
           ),
         ),
-        SizedBox(
-          width: 4.w,
-        )
       ],
     );
   }

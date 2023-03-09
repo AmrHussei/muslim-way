@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/utils/constant.dart';
 import 'package:muslim_way/features/quran/presentation/view/surah_viewer.dart';
 import 'package:muslim_way/features/quran/presentation/view/widgets/index_creator.dart';
@@ -54,7 +55,7 @@ class _IndexPageState extends State<IndexSurahOfQuran> {
         centerTitle: true,
         title: Text(
           "القرآن",
-          style: TextStyle(
+          style: GoogleFonts.elMessiri(
             //fontFamily: 'quran',
             fontSize: 33.sp,
             fontWeight: FontWeight.bold,

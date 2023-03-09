@@ -67,14 +67,14 @@ class DataOfAyah extends StatelessWidget {
         //TODO: اسم السوره ورقم الايه /////////////////////////////////
         children: [
           Text(
-            '() ايه رقم',
+            '(254) ايه رقم',
             style: GoogleFonts.elMessiri(
               color: Colors.white,
               fontSize: 14.sp,
             ),
           ),
           Text(
-            ' () سورة البقرة',
+            ' سورة البقرة',
             style: GoogleFonts.elMessiri(
               color: Colors.white,
               fontSize: 14.sp,

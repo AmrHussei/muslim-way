@@ -13,9 +13,9 @@ class AppNameWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SizedBox(
+        /*    SizedBox(
           height: 18.w,
           width: 18.w,
           child: InkWell(
@@ -25,7 +25,7 @@ class AppNameWidget extends StatelessWidget {
                 settings,
                 fit: BoxFit.fill,
               )),
-        ),
+        ),*/
         Text(
           'طريق المسلم',
           style: GoogleFonts.elMessiri(

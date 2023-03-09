@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../../core/utils/constant.dart';
 import '../../../../../core/utils/constant_of_quran.dart';
@@ -32,10 +34,9 @@ Container indexCreator(quran, context) {
                   const Expanded(child: SizedBox()),
                   Text(
                     arabicName[indexOfSura]['name'],
-                    style: const TextStyle(
-                        fontSize: 30,
-                        color: Colors.black87,
-                        fontFamily: 'quran',
+                    style: GoogleFonts.elMessiri(
+                        fontSize: 27.sp,
+                        color: MyColors.names,
                         shadows: [
                           Shadow(
                             offset: Offset(.5, .5),

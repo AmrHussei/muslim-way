@@ -17,7 +17,7 @@ class QuranImageWidget extends StatelessWidget {
         height: 140.h,
         width: 200.w,
         child: Image.asset(
-          quran,
+          quranI,
           fit: BoxFit.fill,
         ),
       ),
