@@ -22,13 +22,20 @@ attractive design and ease of use
 - Home  Screen
 
 ## Screenshots
-![Screenshot 2023-03-06 183239](https://user-images.githubusercontent.com/94804979/223172924-7b73c3b6-1ae2-4518-ae8f-602c46929a5a.png)
-![Screenshot 2023-03-06 183316](https://user-images.githubusercontent.com/94804979/223173001-e027486d-6a0a-4f52-87f7-e30e47bd09a6.png)
-![Screenshot 2023-03-06 183419](https://user-images.githubusercontent.com/94804979/223173078-8ee3127f-34c1-49e8-9e6b-4d7c8acf161b.png)
-![photo_2022-12-19_16-34-11](https://user-images.githubusercontent.com/94804979/223169108-240d5458-568c-46d0-949b-f9a3d52cd996.jpg)
-![Screenshot 2023-03-06 182406](https://user-images.githubusercontent.com/94804979/223170450-e95887a5-6a9f-4b05-a1e1-7030b89aa58a.png)
-![Screenshot 2023-03-06 182431](https://user-images.githubusercontent.com/94804979/223170470-06ed6f1f-5669-4ff1-9258-7c442ae18403.png)
-![Screenshot 2023-03-06 182458](https://user-images.githubusercontent.com/94804979/223170487-4292879d-74df-46c2-a2f8-b0d77f2a4377.png)
+![Screenshot 2023-03-10 184801](https://user-images.githubusercontent.com/94804979/224375692-86ab5c56-7695-4676-9e51-2e521032e06c.png)
+![Screenshot 2023-03-10 184854](https://user-images.githubusercontent.com/94804979/224375733-64d12a6e-5ead-460e-93fa-20e1414d88a0.png)
+![Screenshot 2023-03-10 184922](https://user-images.githubusercontent.com/94804979/224375768-62a3a312-f3fe-4f55-9c10-4fba6cd58c5b.png)
+![Screenshot 2023-03-10 184938](https://user-images.githubusercontent.com/94804979/224375786-b6633b9c-cc03-4cbc-9d4c-47d91bd552e8.png)
+![Screenshot 2023-03-10 184959](https://user-images.githubusercontent.com/94804979/224375871-89756e6d-fe65-4b0a-a71c-60fe5cb74b25.png)
+![Screenshot 2023-03-10 185018](https://user-images.githubusercontent.com/94804979/224375898-75ac1cd4-2131-4eaf-a676-bf64b11c314e.png)
+![Screenshot 2023-03-10 185044](https://user-images.githubusercontent.com/94804979/224375951-e49b1187-2c22-4bea-8bc8-8149bdf5c931.png)
+![Screenshot 2023-03-10 185104](https://user-images.githubusercontent.com/94804979/224375973-f8084bbd-be68-4944-b8b2-e2892e45f7d1.png)
+![Screenshot 2023-03-10 185123](https://user-images.githubusercontent.com/94804979/224376003-4bd11aa9-612a-4a53-8cb8-47258073ae48.png)
+![Screenshot 2023-03-10 185150](https://user-images.githubusercontent.com/94804979/224376026-0fa24e6e-8dd5-475c-a934-1805b5247cb6.png)
+![Screenshot 2023-03-10 185218](https://user-images.githubusercontent.com/94804979/224376053-8dc7009c-5f99-4d7a-849c-a87e568e7c91.png)
+![Screenshot 2023-03-10 185239](https://user-images.githubusercontent.com/94804979/224376084-23c12e06-3671-4fbd-8af1-702f58680234.png)
+![Screenshot 2023-03-10 185303](https://user-images.githubusercontent.com/94804979/224376107-6b6458ef-109d-4aab-af80-63f53f178a77.png)
+
 
 
 
