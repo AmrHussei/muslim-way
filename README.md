@@ -1,6 +1,4 @@
 # Google Maps
-### this project still under development (prayer time api )
-
 A religious application that contains many features such as the modern Holy
 Qur’an, prayer times according to the location, morning and evening
 remembrances, electronic rosaries, and other features with a beautiful and
@@ -49,8 +47,21 @@ attractive design and ease of use
 
 
 ## API Reference 
-## still under development
+## Base URL http://api.aladhan.com/v1/calendar
 
+
+#### Suggestions Request
+
+```http
+  GET place/autocomplete/json 
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `latitude` | `string` |  
+| `longitude` | `string` | 
+| `year` | `string` | 
+| `month` | `string` | 
 
 
 ## Packages
