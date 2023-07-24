@@ -19,7 +19,7 @@ class MyDatePicker extends StatelessWidget {
       initialSelectedDate: DateTime.now(),
       selectionColor: MyColors.names,
       selectedTextColor: Colors.white,
-      height: 100,
+      height: 105.h,
       dateTextStyle: GoogleFonts.elMessiri(
           color: MyColors.names, fontSize: 22.sp, fontWeight: FontWeight.w500),
       monthTextStyle: GoogleFonts.elMessiri(

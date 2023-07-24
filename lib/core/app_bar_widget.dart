@@ -15,9 +15,8 @@ class AppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
-        Container(),
         Text(
           text,
           style: GoogleFonts.elMessiri(
@@ -25,6 +24,9 @@ class AppBarWidget extends StatelessWidget {
             fontSize: 17.sp,
             fontWeight: FontWeight.w500,
           ),
+        ),
+        SizedBox(
+          width: 85.w,
         ),
         IconButton(
           onPressed: (() {

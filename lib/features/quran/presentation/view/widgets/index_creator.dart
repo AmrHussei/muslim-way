@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../../core/utils/constant.dart';
 import '../../../../../core/utils/constant_of_quran.dart';
-import '../surah_viewer.dart';
+import '../screens/surah_viewer.dart';
 import 'arabic_sura_number.dart';
 
 Container indexCreator(quran, context) {

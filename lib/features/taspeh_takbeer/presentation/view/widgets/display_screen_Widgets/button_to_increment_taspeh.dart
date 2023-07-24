@@ -28,7 +28,7 @@ class ButtonToIncrement extends StatelessWidget {
         height: 80.h,
         width: 235.w,
         decoration: BoxDecoration(
-          color: MyColors.displayButton,
+          color: MyColors.myGreen,
           borderRadius: BorderRadius.circular(20.sp),
           boxShadow: [
             BoxShadow(
@@ -43,7 +43,7 @@ class ButtonToIncrement extends StatelessWidget {
           child: Text(
             'اضغط هنا',
             style: GoogleFonts.elMessiri(
-              color: MyColors.displayButtontext,
+              color: Colors.white,
               fontSize: 25.sp,
               fontWeight: FontWeight.w900,
             ),

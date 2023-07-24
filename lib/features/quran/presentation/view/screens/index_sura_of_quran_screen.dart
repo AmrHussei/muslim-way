@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/utils/constant.dart';
-import 'package:muslim_way/features/quran/presentation/view/surah_viewer.dart';
+import 'package:muslim_way/features/quran/presentation/view/screens/surah_viewer.dart';
 import 'package:muslim_way/features/quran/presentation/view/widgets/index_creator.dart';
 import 'package:muslim_way/features/quran/presentation/view/widgets/mydrawer.dart';
-import '../../../../core/utils/constant_of_quran.dart';
+import '../../../../../core/utils/constant_of_quran.dart';
 
 class IndexSurahOfQuran extends StatefulWidget {
   const IndexSurahOfQuran({Key? key}) : super(key: key);

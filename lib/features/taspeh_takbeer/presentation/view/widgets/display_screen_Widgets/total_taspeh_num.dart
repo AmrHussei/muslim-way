@@ -28,7 +28,6 @@ class TotalNum extends StatelessWidget {
         SizedBox(
           height: 10.h,
         ),
-        //TODO : get this num from bloc function by taspeh scrren
         SizedBox(
           height: 36.h,
           child: BlocBuilder<TaspehTakbeerCubit, TaspehTakbeerState>(
@@ -37,7 +36,7 @@ class TotalNum extends StatelessWidget {
                 return Text(
                   '${BlocProvider.of<TaspehTakbeerCubit>(context).totalTaspehNums}',
                   style: GoogleFonts.elMessiri(
-                    color: MyColors.nums,
+                    color: MyColors.myGreen,
                     fontSize: 24.sp,
                     fontWeight: FontWeight.w600,
                   ),

@@ -38,7 +38,7 @@ class _PrayersScreenState extends State<PrayersScreen>
       child: Scaffold(
           body: Stack(
         children: [
-          ScreensBackground(image: prayers),
+          ScreensBackground(image: prayerBg),
           Column(
             children: [
               SizedBox(height: 30.h),
@@ -61,7 +61,7 @@ class _PrayersScreenState extends State<PrayersScreen>
                           text: 'اذكار الصباح',
                         ),
                       ],
-                      indicatorColor: MyColors.prayers,
+                      indicatorColor: MyColors.myGreen,
                       indicatorWeight: 3.sp,
                       labelPadding: EdgeInsets.only(bottom: 13.h),
                     ),

@@ -3,12 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
 import 'package:muslim_way/core/utils/constant.dart';
-import 'package:muslim_way/features/quran/presentation/view/settings_screen.dart';
+import 'package:muslim_way/features/quran/presentation/view/screens/settings_screen.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../core/utils/constant_of_quran.dart';
-import '../surah_viewer.dart';
 
 class MyDrawer extends StatefulWidget {
   const MyDrawer({
@@ -73,7 +72,8 @@ class _MyDrawerState extends State<MyDrawer> {
               style: GoogleFonts.elMessiri(fontSize: 20.sp),
             ),
             onTap: () {
-              Share.share('''*Quran app*\n
+              Share.share(
+                  '''*Quran app*\n
 u can develop it from my LinkedIn https://www.linkedin.com/in/amr-hussein-51a141220/ ''');
               Navigator.pop(context);
             },

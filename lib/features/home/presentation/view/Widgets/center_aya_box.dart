@@ -63,8 +63,6 @@ class DataOfAyah extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 42.w),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
-        //TODO: اسم السوره ورقم الايه /////////////////////////////////
         children: [
           Text(
             '(254) ايه رقم',
@@ -96,19 +94,18 @@ class AyahWidget extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 15.w),
       child: SizedBox(
-        //TODO : الايه
         height: 130.h, //124
-        width: 306.w,
+        width: 308.w,
         child: ListView(
           children: [
             Text(
               '''اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ
- مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ
- عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ
+مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ
+عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ
 بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ
 وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ. ''',
               style: GoogleFonts.elMessiri(
-                  color: Colors.white, fontSize: 15.sp, height: 1.5.sp),
+                  color: Colors.white, fontSize: 14.sp, height: 1.5.sp),
               textAlign: TextAlign.center,
             ),
           ],

@@ -301,3 +301,13 @@ Future readJson() async {
   malayalam = data["malayalam"];
   return quran = [arabic, malayalam];
 }
+
+final List prayerNames = [
+  'الفجر',
+  'الشروق',
+  'الظهر',
+  'العصر',
+  'المغرب',
+  'العشاء',
+  'الامساك'
+];

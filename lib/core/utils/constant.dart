@@ -11,7 +11,7 @@ class MyColors {
   static const nums = Color(0xff828282);
   static const mainNum = Color(0xff107283);
   static const displayButton = Color(0xff56CCD3);
-  static const displayButtontext = Color(0xff3B9294);
+  static const displayButtontext = Color(0xff348858);
   static const tableRowColor = Color(0xffECECEC);
   static const prayers = Color(0xffA88947);
   static const selecteddate = Color(0xffE3EDF7);

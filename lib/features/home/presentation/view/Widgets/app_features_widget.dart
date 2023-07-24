@@ -7,10 +7,10 @@ import 'package:muslim_way/core/utils/constant.dart';
 import 'package:get/get.dart' as get_navigation;
 import 'package:muslim_way/features/morning_and_evening-prayers/presentation/view/prayers_screen.dart';
 import 'package:muslim_way/features/prayer_time/presentation/view/screens/prayer_time_screen.dart';
-import 'package:muslim_way/features/taspeh_takbeer/presentation/view/taspeh_takbeer_screen.dart';
+import 'package:muslim_way/features/taspeh_takbeer/presentation/view/screens/taspeh_takbeer_screen.dart';
 
-import '../../../../Islamic_events/presentation/view/Islamic_events_screen.dart';
-import '../../../../quran/presentation/view/index_sura_of_quran_screen.dart';
+import '../../../../Islamic_events/presentation/view/screens/Islamic_events_screen.dart';
+import '../../../../quran/presentation/view/screens/index_sura_of_quran_screen.dart';
 
 class AppFeatures extends StatelessWidget {
   const AppFeatures({

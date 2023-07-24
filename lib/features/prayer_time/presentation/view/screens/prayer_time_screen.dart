@@ -1,18 +1,10 @@
-import 'dart:ffi';
-
-import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
-import 'package:muslim_way/core/utils/constant.dart';
-import 'package:muslim_way/core/widgets/text_utils.dart';
 import 'package:muslim_way/features/prayer_time/data/services/location_services.dart';
-
 import '../../../../../core/app_bar_widget.dart';
 import '../../../../../core/screens_background.dart';
-import '../../../../../helper/location_helper.dart';
 import '../../view_model/cubit/prayet_times_cubit.dart';
 import '../widgets/prayer_time_widgets/my_date_picker.dart';
 import '../widgets/prayer_time_widgets/prayers_time_widget.dart';

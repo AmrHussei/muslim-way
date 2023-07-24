@@ -1,4 +1,4 @@
-package com.example.muslim_way
+package com.amrhussein.muslim_way
 
 import io.flutter.embedding.android.FlutterActivity
 

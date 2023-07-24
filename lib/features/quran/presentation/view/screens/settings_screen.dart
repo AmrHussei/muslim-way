@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muslim_way/core/utils/constant.dart';
 
-import '../../../../core/utils/constant_of_quran.dart';
+import '../../../../../core/utils/constant_of_quran.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);

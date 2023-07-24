@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:muslim_way/core/utils/constant.dart';
-import 'package:muslim_way/features/quran/presentation/view/widgets/mydrawer.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../../../core/utils/constant_of_quran.dart';
+import '../../../../../core/utils/constant_of_quran.dart';
 
+// ignore: must_be_immutable
 class SurahBuilder extends StatefulWidget {
   final sura;
   final arabic;
@@ -199,7 +198,8 @@ class _SurahBuilderState extends State<SurahBuilder> {
             ),
           )
         ],
-        leading: Tooltip(
+        leading: SizedBox(),
+        /*Tooltip(
           message: 'Mushaf Mode',
           child: TextButton(
             child: Icon(
@@ -213,7 +213,7 @@ class _SurahBuilderState extends State<SurahBuilder> {
               });
             },
           ),
-        ),
+        ),*/
         centerTitle: true,
         title: Text(
           // widget.

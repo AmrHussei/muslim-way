@@ -9,7 +9,7 @@ import 'package:muslim_way/core/widgets/text_utils.dart';
 import 'package:muslim_way/features/prayer_time/presentation/view/screens/prayer_time_screen.dart';
 import '../../../../../core/app_bar_widget.dart';
 import '../../../../../core/screens_background.dart';
-import '../../../../../helper/location_helper.dart';
+import '../../../../../core/helper/location_helper.dart';
 
 class DetectLocationScreen extends StatelessWidget {
   const DetectLocationScreen({super.key});

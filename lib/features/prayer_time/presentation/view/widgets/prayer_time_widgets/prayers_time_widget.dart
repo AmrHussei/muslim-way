@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_way/core/assets_data.dart';
 import 'package:muslim_way/features/prayer_time/data/models/prayer_times_and_location.dart';
 import '../../../../../../core/utils/constant.dart';
+import '../../../../../../core/utils/constant_of_quran.dart';
 import '../../../../../../core/widgets/text_utils.dart';
 import '../../../view_model/cubit/prayet_times_cubit.dart';
 import 'my_divider.dart';
@@ -12,15 +14,6 @@ class PrayersTimeWidget extends StatelessWidget {
   PrayersTimeWidget({
     super.key,
   });
-  final List prayerNames = [
-    'الفجر',
-    'الشروق',
-    'الظهر',
-    'العصر',
-    'المغرب',
-    'العشاء',
-    'الامساك'
-  ];
 
   @override
   Widget build(BuildContext context) {
@@ -88,8 +81,21 @@ class PrayersTimeWidget extends StatelessWidget {
           ),
         );
       } else {
-        return const Center(
-          child: Text('somthing wrong'),
+        return Column(
+          children: [
+            SizedBox(
+              height: 110.h,
+            ),
+            Center(
+              child: Text(
+                'حدث شئ ما خاطئ حاول مجددا ',
+                style: GoogleFonts.elMessiri(
+                  fontSize: 20.sp,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+          ],
         );
       }
     });

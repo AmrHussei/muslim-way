@@ -3,7 +3,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:meta/meta.dart';
 import 'package:muslim_way/features/prayer_time/data/repository/prayer_times_repo.dart';
 
-import '../../../../../helper/location_helper.dart';
+import '../../../../../core/helper/location_helper.dart';
 import '../../../data/models/prayer_times_and_location.dart';
 
 part 'prayet_times_state.dart';

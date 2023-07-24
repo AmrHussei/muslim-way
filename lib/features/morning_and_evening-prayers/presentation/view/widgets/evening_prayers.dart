@@ -28,7 +28,7 @@ class EveningPrayers extends StatelessWidget {
                           BlocProvider.of<ParyersCubit>(context)
                               .changeParyerEveningNum(index);
                         }),
-                        color: MyColors.prayers,
+                        color: MyColors.myGreen,
                         height: 44.h,
                         minWidth: 300.w,
                         shape: RoundedRectangleBorder(

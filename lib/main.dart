@@ -4,14 +4,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:muslim_way/features/auth/presentation/view/splash_screen.dart';
 import 'package:muslim_way/features/auth/presentation/view_model/cubit/auth_cubit.dart';
-import 'package:muslim_way/features/home/presentation/view/home_screen.dart';
+import 'package:muslim_way/features/home/presentation/view/screens/home_screen.dart';
 import 'package:muslim_way/features/taspeh_takbeer/presentation/view_model/cubit/taspeh_takbeer_cubit.dart';
-
 import 'features/morning_and_evening-prayers/presentation/view_model/cubit/paryers_cubit.dart';
-import 'features/prayer_time/presentation/view/screens/detect_location_screen.dart';
-import 'features/prayer_time/presentation/view/screens/prayer_time_screen.dart';
 import 'features/prayer_time/presentation/view_model/cubit/prayet_times_cubit.dart';
 
 void main() async {

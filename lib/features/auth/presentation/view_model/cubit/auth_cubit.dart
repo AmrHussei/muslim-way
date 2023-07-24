@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart' as get_navigation;
 
 import '../../../../../core/utils/constant.dart';
-import '../../../../home/presentation/view/home_screen.dart';
+import '../../../../home/presentation/view/screens/home_screen.dart';
 part 'auth_state.dart';
 
 class AuthCubit extends Cubit<AuthState> {
@@ -13,6 +13,7 @@ class AuthCubit extends Cubit<AuthState> {
   Future<void> userAuth() async {
     try {
       emit(AuthLoading());
+      // ignore: unused_local_variable
       final userCredential = await FirebaseAuth.instance.signInAnonymously();
       debugPrint("Signed in with temporary account.");
 

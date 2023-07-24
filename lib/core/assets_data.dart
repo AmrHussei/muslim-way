@@ -20,3 +20,29 @@ const refresh = 'assets/refresh.svg';
 const detectLocationPng = 'assets/detect_locationPng.png';
 const prayerBg = 'assets/prayerBg.png';
 const loadingGIF = 'assets/loadingGIF.gif';
+const date1 = 'assets/date1.svg';
+const date2 = 'assets/date2.svg';
+const date3 = 'assets/date3.svg';
+const date4 = 'assets/date4.svg';
+const date5 = 'assets/date5.svg';
+const date6 = 'assets/date6.svg';
+const date7 = 'assets/date7.svg';
+const date8 = 'assets/date8.svg';
+const date9 = 'assets/date9.svg';
+const date10 = 'assets/date10.svg';
+const date11 = 'assets/date11.svg';
+const date12 = 'assets/date12.svg';
+List listOfdatesImages = [
+  date1,
+  date2,
+  date3,
+  date4,
+  date5,
+  date6,
+  date7,
+  date8,
+  date9,
+  date10,
+  date11,
+  date12,
+];
