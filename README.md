@@ -1,4 +1,4 @@
-# Google Maps
+# Muslim way
 A religious application that contains many features such as the modern Holy
 Qur’an, prayer times according to the location, morning and evening
 remembrances, electronic rosaries, and other features with a beautiful and
